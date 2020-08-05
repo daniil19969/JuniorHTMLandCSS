@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Junior HTML</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+        
+      }
+
+      p {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      td {
+        padding: 10px;
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Задание №1</p>
+      <table>
+        <tr>
+          <td><b>Lorem, ipsum.</b></td>
+          <td><em>Lorem, ipsum.</em></td>
+          <td><small>Lorem, ipsum.</small></td>
+        </tr>
+        <tr>
+          <td><mark>Lorem, ipsum.</mark></td>
+          <td><sup>Lorem, ipsum.</sup></td>
+          <td><del>Lorem, ipsum.</del></td>
+        </tr>
+
+        <tr>
+          <td><code>Lorem, ipsum.</code></td>
+          <td><dfn>Lorem, ipsum.</dfn></td>
+          <td><q>Lorem, ipsum.</q></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://aggregate.tibbo.com/ru/company/career.html"; target="_blank;">Работа</a>
+          </td>
+          <td>
+            <a href="https://miro.medium.com/max/1200/1*2IMbng9Sl1e-VGNFMq0d5w.png"; target="_blank;">Собачки</a>
+          </td>
+          <td>
+            <a href="https://scd-grande.ru/uploads/images/m/i/l/milij_kotik.jpg"; target="_blank;">Котик</a>
+          </td>
+        </tr>
+        <tr style="background-color: green;">
+          <td style="color: white;">Больше</td>
+          <td style="color: blue;">не</td>
+          <td style="color: red;">придумал</td>
+        </tr>
+      </table>
+
+      <div>
+        <p>Задание №2</p>
+        <ul>
+          <li>
+            Маркированный список
+            <ol>
+              <li>Нумерованный список</li>
+            </ol>
+          </li>
+          <li>
+            <dl>
+              <dt>Список определений:</dt>
+              <dd>
+                Вложенный список
+                <ol>
+                  <li>Многоуровневый нумерованный список</li>
+                </ol>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          Задание №3 <br />
+          <img src="image.jpg" alt="Мячик" width="300" />
+        </p>
+      </div>
+      <div>
+        <p>Задание №4</p>
+        <form action="#" autocomplete="on" name="form" target="_blank">
+          <fieldset>
+            <legend>Логин и пароль</legend>
+            <input type="text" size="25" autofocus maxlength="10" required placeholder="Введите логин"/>
+            <input type="password" size="25" autofocus minlength="5" maxlength="10" required placeholder="Введите пароль" />
+            <button type="submit">Принять</button>
+            <input type="reset" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
